@@ -1,6 +1,5 @@
-let myArray = [];
-
 function seq(requested_length) {
+  let myArray = [];
   if (requested_length < 0) {
     throw new RangeError("Must not be negative");
   }
